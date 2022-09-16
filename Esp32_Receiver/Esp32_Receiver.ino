@@ -20,8 +20,8 @@
 #define OLED_RESET    -1 // Reset pin # (or -1 if sharing Arduino reset pin)
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
-const char* ssid     = "giulemanidallanostrarete";
-const char* password = "coitosenza9macon9";
+const char* ssid     = "YOUR SSID";
+const char* password = "YOUR WIFI PASSWORD";
 
 int LM35_Raw_Sensor1 = 0;
 float LM35_TempC_Sensor1 = 0.0;
